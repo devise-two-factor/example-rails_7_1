@@ -17,6 +17,7 @@ Devise-Two-Factor was then adapted to the application.
 bundle install
 bin/rails db:create
 bin/rails db:migrate
+echo "aaecd7c87ddb047bdb5735529bcfea2f" > config/master.key
 
 bin/rails server
 ```
